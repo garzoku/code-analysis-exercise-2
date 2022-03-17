@@ -24,14 +24,34 @@ function (floor){
 
 | Input | Output |
 | ----- | ------ |
-|       |        | 
-|       |        | 
-|       |        | 
+|  10   |    9   | 
+|  0    |    0   | 
+|  15   |    13  | 
+|  3    |    2   |
+|  2    |    1   |
+|  13   |    11  |
+|   0   |    0   |
+|   1   |    0   |
+|   2   |    1   |
+|   3   |    2   |
+|   4   |    3   |
+|   5   |    4   |
+|  10   |    9   |
+|  11   |   10   |
+|   12  |   11   |
+|   13  |   11   |
+|   14  |   12   |
 
 <table>
   <tr>
     <th>What does this program do?</th>
-    <td></td>
+    <td>1). The function accepts a floor as a number.<br>
+2). If floor is less than or equal to 0, the floor number is returned.<br>
+3). If floor is not less than or equal to 0, the first if statement is skipped.<br>
+4). The variable named offset is assigned a value of 1.<br>
+5). If floor is more than or equal to 13, the value for offset is changed to 2.<br>
+6). The function then returns the result of floor minus offset.<br>
+7). This program appears to be like a mathematical floor function. It returns the largest number that is less than or equal to either 0 or 13.</td>
   </tr>
 </table>
 
